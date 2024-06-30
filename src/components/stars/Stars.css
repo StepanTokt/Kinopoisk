@@ -1,0 +1,55 @@
+.rating_panel {
+	display: flex;
+	height: 50px;
+
+}
+
+.rating_block {
+	display: block;
+}
+
+.star_icon {
+	width: 14px;
+	height: 14px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+	fill: white;
+	stroke: rgba(171, 171, 171, 1);
+}
+
+
+
+.active_hover {
+	fill: rgba(171, 171, 171, 1);
+	stroke: rgba(171, 171, 171, 1);
+	transition: fill ease 0.3s;
+}
+
+.active_click {
+	fill: rgba(255, 85, 0, 1);
+	stroke: rgba(255, 85, 0, 1);
+	transition: fill ease 0.3s;
+}
+
+.star_icon:nth-last-child() {
+	margin-right: 0;
+}
+
+.rating {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: rgba(171, 171, 171, 1);
+	margin: 0 auto;
+}
+
+.active_rating {
+	color: black;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0 auto;
+}

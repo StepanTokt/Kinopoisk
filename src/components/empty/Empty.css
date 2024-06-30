@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 170px);
+    text-align: center;
+    flex-direction: column;
+}
+
+.wrapper p{
+    color: rgb(167, 165, 165);
+}
+

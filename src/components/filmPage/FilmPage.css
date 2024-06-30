@@ -1,0 +1,144 @@
+.film_page {
+	padding-top: 16px;
+	padding-bottom: 30px;
+	background-color: rgba(248, 248, 248, 1);
+	padding-right: 24px;
+}
+
+.film_block {
+	display: flex;
+	padding: 24px;
+	background-color: white;
+	border-radius: 8px;
+	margin-left: 24px;
+}
+
+.film_photo {
+	display: block;
+	width: 400px;
+	height: 500px;
+	border-radius: 8px;
+	margin-right: 24px;
+
+}
+
+.film_name {
+	font-family: "Roboto", sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: left;
+	color: rgba(27, 31, 35, 1);
+	margin-bottom: 36px;
+}
+
+.information-block {
+	display: block;
+}
+
+.info {
+	display: flex;
+	margin-bottom: 16px;
+	font-family: "Roboto", sans-serif;
+	color: rgba(27, 31, 35, 1);
+	max-width: 450px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.info:nth-last-child() {
+	margin-bottom: 0;
+}
+
+
+.type {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	color: rgba(27, 31, 35, 1);
+}
+
+.info_value {
+	font-family: "Roboto", sans-serif;
+	color: rgba(27, 31, 35, 1);
+	max-width: 450px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+
+.actors_title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: left;
+	color: rgba(27, 31, 35, 1);
+	margin: 24px 0px 24px 24px;
+}
+
+
+.actors_wrapper {
+	display: flex;
+	margin-left: 24px;
+	width: calc(100%-100px);
+	overflow-x: hidden;
+}
+
+.left_scrollBtn,
+.right_scrollBtn {
+	
+	height: 48px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 1);
+	outline: none;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+	position: sticky;
+	top: 40%;
+	z-index: 1000;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.r_strelka {
+	width: 11px;
+	height: 23px;
+	display: block;
+	
+}
+
+.l_strelka {
+	transform: rotate(180deg);
+	width: 11px;
+	height: 23px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.left_scrollBtn {
+	left: 10px;
+}
+
+.right_scrollBtn {
+	right: 15px;
+}
+
+.moveRight{
+	left:50px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
