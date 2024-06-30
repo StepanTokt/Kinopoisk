@@ -1,0 +1,13 @@
+.main_block {
+	display: flex;
+	padding: 20px 32px;
+	background-color: rgba(248, 248, 248, 1);
+}
+
+.right_block {
+	width: calc(100% - 408px);
+}
+
+.left_block {
+	width: 408px;
+}

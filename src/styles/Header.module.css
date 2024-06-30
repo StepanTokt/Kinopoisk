@@ -1,0 +1,78 @@
+
+
+.link{
+	text-decoration: none;
+}
+
+
+.header {
+	display: flex;
+	position: sticky;
+	top: 0; /* Элемент будет залипать в верхней части окна просмотра */
+	align-items: center;
+	justify-content: space-between;
+	padding: 24px 32px;
+	background-color: rgba(51, 51, 51, 1);
+	z-index: 99999999999;
+}
+
+
+.site_name {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: rgba(255, 255, 255, 1);
+	font-size: 32px;
+	line-height: 37.5px;
+	text-align: left;
+}
+
+.enter_button {
+	font-family: "Roboto", sans-serif;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 85, 0, 1);
+	width: 72px;
+	height: 40px;
+	padding: 8px 16px 8px 16px;
+	border-radius: 8px ;
+	cursor: pointer;
+}
+
+.close_button{
+	font-family: "Roboto", sans-serif;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(51, 51, 51, 1);
+	color:rgba(255, 85, 0, 1);
+	border:1px solid rgba(255, 85, 0, 1);
+	width: 72px;
+	height: 40px;
+	padding: 8px 16px 8px 16px;
+	border-radius: 8px ;
+	cursor: pointer;
+}
+
+.close_header{
+	display: flex;
+
+}
+
+.circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 16px;
+}

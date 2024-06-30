@@ -1,0 +1,72 @@
+.film_card {
+	display: flex;
+	max-width: calc(100%-48px);
+	padding: 24px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-left: 24px;
+	margin-top: 16px;
+	cursor: pointer;
+	justify-content: space-between;
+}
+
+.film_poster {
+	display: block;
+	width: 100px;
+	height: 120px;
+	border-radius: 8px;
+	margin-right: 24px;
+
+}
+
+.link{
+	display:flex;
+}
+
+.film_title {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: left;
+	max-width: 500px;
+	color: rgba(27, 31, 35, 1);
+	margin-bottom: 16px;
+}
+
+.info-block {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.text{
+	display: flex;
+	margin-bottom: 12px;
+}
+
+.text:nth-last-child(){
+	margin-bottom: 0;
+}
+
+
+.label {
+	font-family: "Roboto", sans-serif;
+	width: 90px;
+	color: rgba(171, 171, 171, 1);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	margin-right: 16px;
+}
+
+.value {
+	font-family: "Roboto", sans-serif;
+	color: rgba(27, 31, 35, 1);
+	max-width: 600px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+
